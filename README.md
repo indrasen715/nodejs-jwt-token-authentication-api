@@ -9,6 +9,7 @@ Run this command to install required dependency.
 ```bash
 npm install 
 ```
+Create a .env file in root directory and add following constant
  1. Add mongodb connection url  MONGODB_URL under .env file.
  2. Create a random string for API_KEY and add it to .env
  3. Create random string for JWT_KEY and add it to .env file
