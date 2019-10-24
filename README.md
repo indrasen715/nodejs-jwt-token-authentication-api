@@ -1,4 +1,4 @@
-# nodejs-jwt-token-authentication-demo
+# nodejs-jwt-token-authentication-api
 
 This Api provide jwt token authentication and used to generate jwt token for user.
 
