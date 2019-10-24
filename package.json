@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-jwt-token-authentication-demo",
+  "name": "nodejs-jwt-token-authentication-api",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
