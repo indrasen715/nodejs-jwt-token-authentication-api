@@ -6,7 +6,7 @@ This Api provide jwt token authentication and used to generate jwt token for use
 
 Run this command to install required dependency.
 
-```bash
+``` bash
 npm install 
 ```
 Create a .env file in root directory and add following constant
