@@ -123,24 +123,6 @@ var userLogin = (req, res, next) => {
 }
 
 
-var getAllUser = (req, res, next) => {
-
-    User.find({ IsDeleted: { $ne: true } }, { Password: 0, __v: 0 })
-        .exec()
-        .then(result => {
-
-            return res.status(errorCode.SUCCESS).json({
-                Users: result,
-                Success: true
-            })
-        }).
-        catch(err => {
-            return res.status(errorCode.INTRNAL_SERVER_ERROR).json({
-                error: err
-            })
-        })
-}
-
 
 var getUserByToken = (req, res, next) => {
 
@@ -164,4 +146,4 @@ var getUserByToken = (req, res, next) => {
             })
         })
 }
-module.exports = { userRegistration, deleteUser, userLogin, getAllUser, getUserByToken }
+module.exports = { userRegistration, deleteUser, userLogin, getUserByToken }

@@ -6,7 +6,6 @@ const authMiddleware=require('../middleware/check-auth')
 router.post('/signup', userController.userRegistration)
 router.post('/login', userController.userLogin)
 router.put('/delete', authMiddleware,userController.deleteUser)
-router.post('/getAllUser', userController.getAllUser)
 router.post('/getUserByToken',authMiddleware,userController.getUserByToken)
 
 module.exports = router;
