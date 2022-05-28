@@ -20,6 +20,6 @@
     "mongoose-softdelete": "^0.6.3",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.2",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   }
 }
