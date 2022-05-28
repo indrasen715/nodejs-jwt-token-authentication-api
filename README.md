@@ -23,7 +23,7 @@ npm start
  [User Registration](#User-Registration-API)<br>
  [User Login](#User-Login-API)<br>
  [Fetch User using Jwt Token](#Fetch-User-using-Jwt-Token)<br>
- [Delete User Using Jwt Token](Delete-User-Using-Jwt-Token)
+ [Delete User Using Jwt Token](#Delete-User-Using-Jwt-Token)
 
 >To run the above API using PostMan you can download using this [link](https://drive.google.com/file/d/1fE7o4XgAB0Rm8vWLq_D_N07vSxTUXZsm/view?usp=sharing) and Import in Postman 
 
