@@ -1,7 +1,7 @@
 {
   "name": "nodejs-jwt-token-authentication-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository provides jwt token authentication and provides various  APIs like User Registration,Login etc.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,6 +1,6 @@
 # nodejs-jwt-token-authentication-api
 
-This Api provides jwt token authentication and is used to generate JWT token for the user.
+This repository provides jwt token authentication and provides various  APIs like User Registration,Login etc.
 
 ## Installation
 
