@@ -9,10 +9,10 @@ Run this command to install the required dependency.
 ``` bash
 npm install 
 ```
-Create a .env file in root directory and add following constant
- 1. Add mongodb connection url  MONGODB_URL under .env file.
- 2. Create a random string for API_KEY and add it to .env
- 3. Create a random string for JWT_KEY and add it to .env file
+Create a `.env` file in root directory and add following constant
+ 1. Create an environment variable `MONGODB_URL` and add mongodb connection url
+ 2. Create an environment variable `API_KEY` and add random string
+ 3. Create an environment variable `JWT_KEY` and add random string,this variable will be used to sign the JWT Token
 
 Run this command to start the server
 ```bash
@@ -20,10 +20,10 @@ npm start
 ```
 
 ## Api
- 1. User Registration.
- 2. User Login.
- 3. Fetch User using Jwt Token
- 3. Delete User Using Jwt Token.
+ [User Registration](#User-Registration-API)<br>
+ [User Login](#User-Login-API)<br>
+ [Fetch User using Jwt Token](#Fetch-User-using-Jwt-Token)<br>
+ [Delete User Using Jwt Token](Delete-User-Using-Jwt-Token)
 
 >To run the above API using PostMan you can download using this [link](https://drive.google.com/file/d/1fE7o4XgAB0Rm8vWLq_D_N07vSxTUXZsm/view?usp=sharing) and Import in Postman 
 
@@ -65,7 +65,7 @@ In order to use this endpoint, you need to pass `apiKey` that we have created pr
 }
 ```
 
-### User Login API.
+### User Login API
 <br>
 
  This Api return JWT Token After successful Login
