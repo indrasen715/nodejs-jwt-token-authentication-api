@@ -10,7 +10,7 @@
   "author": "Indrasen",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.1",
     "env-cmd": "^10.0.1",
@@ -20,6 +20,6 @@
     "mongoose-softdelete": "^0.6.3",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.2",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   }
 }
