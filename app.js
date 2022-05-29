@@ -1,12 +1,12 @@
 const express = require('express')
 const bodyParser = require('body-parser');
-const port = process.env.PORT || 3000;
-var database=require('./db/database')
+require('dotenv').config();
+require('./db/database')
 const app = express();
 const authRouter = require('./api/routes/User')
 const apiCredentialsMiddleware = require('./api/middleware/api-credentials')
-require('dotenv').config();
 
+const port = process.env.PORT || 3000;
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 
